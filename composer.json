@@ -1,14 +1,13 @@
 {
-    "name": "intervention/imagecache",
-    "description": "Caching extension for the Intervention Image Class",
-    "homepage": "http://image.intervention.io",
+    "name": "dib258/imagecache",
+    "description": "Fork from intervention/imagecache, added @",
     "keywords": ["image", "gd", "imagick", "laravel", "cache"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Oliver Vogel",
-            "email": "oliver@olivervogel.net",
-            "homepage": "http://olivervogel.net/"
+            "name": "dib258",
+            "email": "lesmanne@gmail.com",
+            "homepage": "http://258labs.be"
         }
     ],
     "require": {
@@ -24,7 +23,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Intervention\\Image\\": "src/Intervention/Image"
+            "Intervention\\Image\\": "src/dib258/Image"
         }
     },
     "minimum-stability": "stable"
